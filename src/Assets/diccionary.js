@@ -66,7 +66,7 @@ export const MetaText = {
 
 export const MetaText2 = {
   es:
-    'Siempre buscando innovar y trabajando para superar cualquier obstáculo que se interpone entre nosotros y el objetivo, después de todo, creemos que con buena música, esfuerzo y buena comunicación "el cielo es el límite"',
+    'Siempre buscando innovar y trabajando para superar cualquier obstáculo que se interpone entre nosotros y el objetivo después de todo creemos que con buena música, esfuerzo y buena comunicación "el cielo es el límite"',
   en:
     'Always looking to innovate and working to overcome any obstacle that stand between us and the goal, after all we believe that with good music, effort and good communication "the sky is the limit"'
 };

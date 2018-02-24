@@ -32,6 +32,22 @@
       }
     }
   }
+  
+  &__three{
+    @include respond(1200){
+      order: 150;
+    }
+
+    &__text{
+      @include secondaryTextSecondaryColor;
+      padding: 5rem 20rem;
+      
+      @include for-phone-only {
+        padding: 2rem;
+      }
+      
+    }
+  }
 
   &__Logo{
     height: 100%;

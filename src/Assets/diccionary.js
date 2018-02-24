@@ -59,9 +59,16 @@ export const Meta = {
 
 export const MetaText = {
   es:
-    'Es crear experiencias únicas para nuestros clientes, para lograr esto investigamos, planificamos e imaginamos junto a ellos y juntos seleccionamos la opción que es más adecuada para implementar, siempre buscando innovación, trabajando para superar cualquier obstáculo que se interpone entre nosotros y el objetivo, después de todo, creemos que con buena música, esfuerzo y buena comunicación, el cielo es el límite.',
+    'Es crear experiencias únicas para nuestros clientes, para lograr esto investigamos, planificamos e imaginamos junto a ellos y juntos seleccionamos la opción que es más adecuada para implementar',
   en:
-    'Is to create unique experiences for our clients, to achieve this we investigate, plan and imagine next to them and together we select the option that is most suitable for implement, always looking for innovation, working to overcome any obstacle that stand between us and the goal, after all we believe that with good music, effort and good communication the sky is the limit.'
+    'Is to create unique experiences for our clients, to achieve this we investigate, plan and imagine next to them and together we select the option that is most suitable to implement'
+};
+
+export const MetaText2 = {
+  es:
+    'Siempre buscando innovar y trabajando para superar cualquier obstáculo que se interpone entre nosotros y el objetivo, después de todo, creemos que con buena música, esfuerzo y buena comunicación "el cielo es el límite"',
+  en:
+    'Always looking to innovate and working to overcome any obstacle that stand between us and the goal, after all we believe that with good music, effort and good communication "the sky is the limit"'
 };
 
 export const Close = {

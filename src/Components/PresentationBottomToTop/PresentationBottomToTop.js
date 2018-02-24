@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import GlobalsConnect from '../../HOC/GlobalsConnect/GlobalsConnect';
 //Locale
 import { lenguajeSelector } from '../../Store/Actions/globals';
-import { Meta, MetaText } from '../../Assets/diccionary';
+import { Meta, MetaText, MetaText2 } from '../../Assets/diccionary';
 //MUI Component
 import Grid from 'material-ui/Grid';
 import { withStyles } from 'material-ui/styles';
@@ -39,7 +39,12 @@ export class PresentationBottomToTop extends Component {
               {lenguajeSelector(lenguaje, MetaText)}
             </p>
           </Grid>
-        </Grid>
+          <Grid item xs={12} className="PresentationBottomToTop__three">
+            <p className="PresentationBottomToTop__three__text">
+              {lenguajeSelector(lenguaje, MetaText2)}
+            </p>
+          </Grid>
+          </Grid>
       </div>
     );
   }

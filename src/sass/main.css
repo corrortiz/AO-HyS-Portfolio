@@ -599,6 +599,24 @@ body {
       @media only screen and (max-width: 37.5em) {
         .PresentationBottomToTop__two__text {
           padding: 0 2rem; } }
+  @media only screen and (max-width: 80em) {
+    .PresentationBottomToTop__three {
+      order: 150; } }
+  .PresentationBottomToTop__three__text {
+    color: #4d2c91;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 0 2rem;
+    padding: 5rem 20rem; }
+    @media only screen and (max-width: 18.75em) {
+      .PresentationBottomToTop__three__text {
+        padding: 0 1rem;
+        letter-spacing: .2rem; } }
+    @media (max-width: 599px) {
+      .PresentationBottomToTop__three__text {
+        padding: 2rem; } }
   .PresentationBottomToTop__Logo {
     height: 100%;
     width: 100%; }

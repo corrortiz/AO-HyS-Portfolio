@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%; // 62.5% === 1Rem === 10px/16px === 62.5%
+  
+  @include for-phone-only {
+    font-size: 45%;
+  }
+  @include for-tablet-portrait-up {
+    font-size: 50%;
+  }
+  @include for-tablet-landscape-up {
+    font-size: 55%;
+  }
+  @include for-desktop-up {
+    font-size: 62.5%
+  }
+  @include for-big-desktop-up {
+    font-size: 70%
+  }
+
+}
+
+.switchRule {
+position: relative;
+
+  & > div {
+    position: absolute;
+  }
+}
+.screen{
+  width: 100vw;
+}
+
+
+.layout{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm{
+  padding: 0 5rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.header__root{
+  transition: 1s all;
+}

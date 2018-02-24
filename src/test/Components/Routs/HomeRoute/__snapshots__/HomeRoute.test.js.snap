@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should compare a snapshot of HomeRoute 1`] = `
+<div>
+  <Connect(NameWrappedComponent) />
+  <Connect(NameWrappedComponent) />
+  <Connect(NameWrappedComponent) />
+  <Connect(NameWrappedComponent) />
+</div>
+`;

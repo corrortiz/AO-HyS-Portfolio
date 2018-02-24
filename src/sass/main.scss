@@ -1,0 +1,24 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/btn";
+@import "components/imageContainer";
+@import "components/presentationRightToLeft";
+@import "components/presentationLeftToRight";
+@import "components/presentationBottomToTop";
+@import "components/rImage";
+@import "components/listOfImageCard";
+@import "components/svg";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/body";
+@import "layout/contact";
+@import "layout/404";
+

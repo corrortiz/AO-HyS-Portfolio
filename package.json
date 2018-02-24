@@ -1,0 +1,62 @@
+{
+  "name": "portfolio2017",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "animated": "^0.2.1",
+    "animejs": "^2.2.0",
+    "aos": "^2.2.0",
+    "axios": "^0.18.0",
+    "flow-bin": "^0.59.0",
+    "glamor": "^2.20.40",
+    "lodash": "^4.17.4",
+    "material-ui": "^1.0.0-beta.34",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "npm-run-all": "^4.1.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-transition": "^1.2.1",
+    "react-scripts": "^1.0.17",
+    "react-transition-group": "^2.2.1",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.3",
+    "typeface-roboto": "^0.0.45"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.3.1",
+    "husky": "^0.14.3",
+    "jest-enzyme": "^4.2.0",
+    "lint-staged": "^5.0.0",
+    "node-sass-chokidar": "^0.0.3",
+    "prettier": "^1.8.2",
+    "react-test-renderer": "^16.1.1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote jsx-bracket-same-line arrow-parens<always> --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json"
+    ]
+  }
+}

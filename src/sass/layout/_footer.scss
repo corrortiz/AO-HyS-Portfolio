@@ -1,0 +1,26 @@
+.footer{
+  padding-top: 2rem;
+  background-color: transparent;
+  color: $primary-text-color;
+  @include flexCenter;
+  flex-direction: column;
+  &__hyperlink{
+  }
+
+  &__icon{
+    height: 6rem;
+    width: auto;
+    padding: 1rem;
+    fill: $primary-color;
+    cursor: pointer;
+  }
+
+  &__title{
+    font-family: $header-font;
+    color: $secondary-color;
+    text-transform: capitalize;
+    letter-spacing: .3rem;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+}

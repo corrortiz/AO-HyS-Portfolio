@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageContainer Commponent Should revise a snapchopt of ImageContainer 1`] = `
+<ImageContainer
+  classes={
+    Object {
+      "root": "ImageContainer-root-1",
+    }
+  }
+/>
+`;

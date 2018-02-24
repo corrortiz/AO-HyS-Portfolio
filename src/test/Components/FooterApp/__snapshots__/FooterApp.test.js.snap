@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterApp Component shold compara a snapshot of FooterApp 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="footer__divider"
+  >
+    <h4
+      className="footer__title"
+    >
+      AO HyS PortFolio
+    </h4>
+    <a
+      className="footer__hyperlink"
+      href="https://github.com/corrortiz"
+      target="blank"
+    >
+      <Github />
+    </a>
+    <Connect(NameWrappedComponent) />
+  </div>
+</footer>
+`;

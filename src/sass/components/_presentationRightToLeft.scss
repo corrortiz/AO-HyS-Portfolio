@@ -1,0 +1,24 @@
+.PresentationRightToLeft{
+  &__one{
+    @include flexCenter;
+    flex-direction: column;
+    margin-bottom: 2rem !important;
+
+    &__title{
+       @include maintTextPrimaryColor; 
+    }
+    
+    &__text{
+      @include secondaryTextSecondaryColor;
+    }
+  }
+
+  &__two{
+    height: auto;
+    @include flexCenter;
+    &__image{
+      overflow: hidden;
+    }
+  }
+  
+}

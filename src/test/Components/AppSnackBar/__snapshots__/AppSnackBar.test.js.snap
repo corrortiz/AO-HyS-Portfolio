@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppSnackBar Component should compare a snapshot of AppSnackBar 1`] = `
+<AppSnackBar
+  classes={
+    Object {
+      "snackbar": "AppSnackBar-snackbar-1",
+    }
+  }
+  globals={
+    Object {
+      "lenguaje": "es",
+      "messageSnackBar": "AO HyS Rules",
+      "openSnackBar": true,
+    }
+  }
+/>
+`;

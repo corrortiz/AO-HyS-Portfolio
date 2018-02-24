@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should compare a snapshot of ServicesRoute 1`] = `
+<div>
+  <h1>
+    Service Rout, La minerva
+  </h1>
+</div>
+`;

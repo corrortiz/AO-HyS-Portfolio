@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RImage Component should compara a snapshot of RImage 1`] = `
+<picture>
+  <source
+    media="(min-width: 900px)"
+    srcSet="undefined 1x, undefined 2x"
+    type="image/webp"
+  />
+  <source
+    media="(min-width: 601px)"
+    srcSet="undefined 1x, undefined 2x"
+    type="image/webp"
+  />
+  <source
+    srcSet="undefined 1x, undefined 2x"
+    type="image/webp"
+  />
+  <img
+    alt="image description"
+    srcSet="undefined 600w,
+              undefined 900w,
+              undefined 1440w"
+    type="image/jpeg"
+  />
+</picture>
+`;

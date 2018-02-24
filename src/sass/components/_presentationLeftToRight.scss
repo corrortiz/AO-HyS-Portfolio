@@ -1,0 +1,29 @@
+.PresentationLeftToRight{
+  &__one{
+    @include flexCenter;
+    flex-direction: column;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 2rem !important;
+   
+    &__title{
+       @include maintTextPrimaryColor; 
+    }
+    
+    &__text{
+      @include secondaryTextSecondaryColor;
+    }
+  }
+
+  &__two{
+    height: auto;
+    @include flexCenter;
+    @include respond(1200){
+      order: 99;
+    }
+  }
+    &__image{
+      overflow: hidden;
+  }
+  
+}

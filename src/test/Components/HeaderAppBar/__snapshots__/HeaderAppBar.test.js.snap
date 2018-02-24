@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadarAppBar should compare a snapshot of HeaderAppBar 1`] = `
+<Connect(NameWrappedComponent)
+  classes={
+    Object {
+      "flex": "Connect-NameWrappedComponent--flex-2",
+      "menuButton": "Connect-NameWrappedComponent--menuButton-3",
+      "root": "Connect-NameWrappedComponent--root-1",
+    }
+  }
+/>
+`;

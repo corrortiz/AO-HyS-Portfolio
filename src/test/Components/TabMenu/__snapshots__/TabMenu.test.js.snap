@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabMenu Component should compare a snapshot of TabMenu 1`] = `
+<TabMenu
+  classes={
+    Object {
+      "root": "TabMenu-root-1",
+    }
+  }
+/>
+`;

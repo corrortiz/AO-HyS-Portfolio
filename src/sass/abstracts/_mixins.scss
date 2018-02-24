@@ -1,0 +1,71 @@
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+
+/*
+$breakpoint argument choices:
+    0 - 300   -small-phone
+  300 - 600   -phone
+  600 - 900   -tab-port
+  900 - 1200  -tab-land
+ 1200 - 1800  -Normal
+ 1800 +       -big-desk
+
+ Font size of browser 16px
+*/
+@mixin respond($breakpoint){
+  @if $breakpoint == 300 {
+    @media only screen and (max-width: 18.75em) { @content };  //300px  
+  }
+  @if $breakpoint == 600 {
+    @media only screen and (max-width: 37.5em) { @content };  //600px  
+  }
+  @if $breakpoint == 900 {
+    @media only screen and (max-width: 60em) { @content };  //960px
+  }
+  @if $breakpoint == 1200 {
+    @media only screen and (max-width: 80em) { @content };  //1280px
+  }
+  @if $breakpoint == 1800 {
+    @media only screen and (min-width: 120em) { @content };  //1920px
+  }
+}
+
+/**** Centers a flex container*/
+@mixin flexCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**** Min Size*/
+@mixin min-size($h-size, $v-size){
+  min-height: $h-size;
+  min-width: $v-size;
+}
+
+/**** Min Size*/
+@mixin clip($height, $clipHeight){
+
+  @supports (clip-path: polygon(0 0)) {
+    clip-path: polygon(0 0, 100% 0, 100% $clipHeight, 0 100%);
+    height: $height;
+
+    @media only screen and (max-height: 37.5em) { 
+      clip-path: polygon(0 0, 100% 0, 100% $clipHeight+15, 0 100%);
+      height: $height+15;
+    };
+  }
+}

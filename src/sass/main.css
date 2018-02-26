@@ -258,7 +258,7 @@ body {
       padding: 5rem 15rem !important; } }
   @media (min-width: 1200px) {
     .box {
-      padding: 5rem 10rem !important; } }
+      padding: 5rem 8rem !important; } }
   @media (min-width: 1800px) {
     .box {
       padding: 5rem 10rem !important; } }
@@ -497,6 +497,10 @@ body {
     font-size: 4rem;
     font-weight: 400;
     margin-bottom: 4rem; }
+    @media (min-width: 1200px) {
+      .PresentationRightToLeft__one__title {
+        font-size: 3rem;
+        margin-bottom: 3rem; } }
   .PresentationRightToLeft__one__text {
     color: #4d2c91;
     text-align: center;
@@ -508,6 +512,9 @@ body {
       .PresentationRightToLeft__one__text {
         padding: 0 1rem;
         letter-spacing: .2rem; } }
+    @media (min-width: 1200px) {
+      .PresentationRightToLeft__one__text {
+        font-size: 2rem; } }
 
 .PresentationRightToLeft__two {
   height: auto;
@@ -534,6 +541,10 @@ body {
     font-size: 4rem;
     font-weight: 400;
     margin-bottom: 4rem; }
+    @media (min-width: 1200px) {
+      .PresentationLeftToRight__one__title {
+        font-size: 3rem;
+        margin-bottom: 3rem; } }
   .PresentationLeftToRight__one__text {
     color: #4d2c91;
     text-align: center;
@@ -545,6 +556,9 @@ body {
       .PresentationLeftToRight__one__text {
         padding: 0 1rem;
         letter-spacing: .2rem; } }
+    @media (min-width: 1200px) {
+      .PresentationLeftToRight__one__text {
+        font-size: 2rem; } }
 
 .PresentationLeftToRight__two {
   height: auto;
@@ -584,6 +598,10 @@ body {
       font-size: 4rem;
       font-weight: 400;
       margin-bottom: 4rem; }
+      @media (min-width: 1200px) {
+        .PresentationBottomToTop__two__title {
+          font-size: 3rem;
+          margin-bottom: 3rem; } }
     .PresentationBottomToTop__two__text {
       color: #4d2c91;
       text-align: center;
@@ -599,6 +617,9 @@ body {
       @media only screen and (max-width: 37.5em) {
         .PresentationBottomToTop__two__text {
           padding: 0 2rem; } }
+      @media (min-width: 1200px) {
+        .PresentationBottomToTop__two__text {
+          font-size: 2rem; } }
   @media only screen and (max-width: 80em) {
     .PresentationBottomToTop__three {
       order: 150; } }
@@ -617,6 +638,9 @@ body {
     @media (max-width: 599px) {
       .PresentationBottomToTop__three__text {
         padding: 2rem; } }
+    @media (min-width: 1200px) {
+      .PresentationBottomToTop__three__text {
+        font-size: 2rem; } }
   .PresentationBottomToTop__Logo {
     height: 100%;
     width: 100%; }
@@ -632,7 +656,7 @@ body {
     .rImageRight {
       height: 30rem;
       width: 50rem; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1800px) {
     .rImageRight {
       height: 40rem;
       width: 60rem; } }
@@ -654,6 +678,11 @@ body {
         width: 328px;
         margin-top: -15rem; } }
     @media (min-width: 1200px) {
+      .rImageRight__image {
+        height: 300px;
+        width: 450px;
+        margin-top: -18rem; } }
+    @media (min-width: 1800px) {
       .rImageRight__image {
         height: 400px;
         width: 600px;
@@ -681,6 +710,11 @@ body {
         margin-top: -14rem; } }
     @media (min-width: 1200px) {
       .rImageRight__shadow {
+        height: 300px;
+        width: 450px;
+        margin-top: -17rem; } }
+    @media (min-width: 1800px) {
+      .rImageRight__shadow {
         height: 400px;
         width: 600px;
         margin-top: -19rem; } }
@@ -696,7 +730,7 @@ body {
     .rImageLeft {
       height: 30rem;
       width: 50rem; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1800px) {
     .rImageLeft {
       height: 40rem;
       width: 60rem; } }
@@ -718,6 +752,11 @@ body {
         width: 328px;
         margin-top: -15rem; } }
     @media (min-width: 1200px) {
+      .rImageLeft__image {
+        height: 300px;
+        width: 450px;
+        margin-top: -18rem; } }
+    @media (min-width: 1800px) {
       .rImageLeft__image {
         height: 400px;
         width: 600px;
@@ -744,6 +783,11 @@ body {
         width: 328px;
         margin-top: -14rem; } }
     @media (min-width: 1200px) {
+      .rImageLeft__shadow {
+        height: 300px;
+        width: 450px;
+        margin-top: -17rem; } }
+    @media (min-width: 1800px) {
       .rImageLeft__shadow {
         height: 400px;
         width: 600px;

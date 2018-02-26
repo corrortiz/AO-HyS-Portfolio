@@ -21,6 +21,10 @@
   
     &__title{
        @include maintTextPrimaryColor; 
+       @include for-desktop-up {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+      }
     }
     
     &__text{
@@ -29,6 +33,10 @@
 
       @include respond(600){
         padding: 0 2rem;
+      }
+
+      @include for-desktop-up {
+        font-size: 2rem;
       }
     }
   }
@@ -46,6 +54,9 @@
         padding: 2rem;
       }
       
+      @include for-desktop-up {
+        font-size: 2rem;
+      }
     }
   }
 
